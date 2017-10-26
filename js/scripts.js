@@ -18,8 +18,9 @@ var converter = function(input) {
 
 var thousands = function(thousands) {
   var thou = ["1", "2", "3"];
-  for (var iThou = 0; iThou = thou.length; iThou ++) {
-    for(var iArray = 0; iArray = inputArray.length; iArray ++) {
+  var letters = ["M", "MM", "MMM"];
+  for (var iThou = 0; iThou <= thou.length; iThou ++) {
+    for(var iArray = 0; iArray <= inputArray.length; iArray ++) {
       if (inputArray[iArray] === thou[iThou]) {
         inputArray[]
       }
