@@ -1,13 +1,45 @@
-// var I = 1;
-// var V = 5;
-// var X = 10;
-// var L = 50;
-// var C = 100;
-// var D = 500;
-// var M = 1000;
-//
-// var roman = [I, V, X, L, C, D, M];
-//
+var numbers = [1, 4, 5, 9, 10, 14, 19, 40, 50, 90, 100, 400, 500, 900, 1000];
+
+var roman = ["I", "IV", "V", "IX", "X", "XIV", "XIX" "XL", "L", "XC", "X", "CD", "D", "CM", "M"];
+
+var converter = function(input) {
+  var inputArray = input.split("");
+    for (var i = 0; i < input.length; i++) {
+      if (input.length === 4) {
+        //run the thousands thing
+      } else if (input.length === 3) {
+        //run the hundreds thing
+      } else if (input.length === 2) {
+        //run the tens thing
+      } else {
+        //run the ones thing
+      }
+    }
+
+var thousands = function(thousands) {
+  var thou = ["1", "2", "3"];
+  for (var iThou = 0; iThou = thou.length; iThou ++) {
+    for(var iArray = 0; iArray = inputArray.length; iArray ++) {
+      if (inputArray[iArray] === thou[iThou]) {
+        inputArray[]
+      }
+    }
+  }
+}
+
+var hundreds = function(hundreds) {
+  //do stuff
+}
+
+var tens = function(tens) {
+  //do stuff
+}
+
+var ones = function(ones) {
+  //do stuff
+}
+
+}); //converter
 //
 //
 // var converter = function(parameter) {
@@ -26,7 +58,7 @@
 $(document).ready(function() {
   $("form#roman").submit(function(event) {
     event.preventDefault();
-    var inputNum = parseInt($("input#submitted").val());
+    var inputNum = ($("input#submitted").val());
       console.log(inputNum);
     // var check = function(value) {
     //   return Number.isNaN(Number(inputNum));
